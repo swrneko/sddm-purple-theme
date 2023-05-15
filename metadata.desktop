@@ -1,16 +1,15 @@
 [SddmGreeterTheme]
-Name=Sugar Candy
-Description=Premium Sugar for SDDM
-Author=Marian Arlt
-Copyright=Copyright (C) 2018 Marian Arlt
+Name=Mountain Theme
+Description=Theme for SDDM with lots of mountains
+Author=Arthur Deierlein
 License=GPL-3.0-or-later
 Type=sddm-theme
-Version=1.6
-Website=https://framagit.org/MarianArlt/sddm-sugar-candy
+Version=1.0
+Website=https://github.com/c0rydoras/sddm-mountain-theme
 Screenshot=Previews/PartialBlur.png
 MainScript=Main.qml
 ConfigFile=theme.conf
 TranslationsDirectory=translations
-Email=marianarlt@icloud.com
-Theme-Id=sugar-candy
+Email=arthur.deierlein@adfinis.com
+Theme-Id=mountain
 Theme-API=2.11
