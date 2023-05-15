@@ -70,11 +70,6 @@ RowLayout {
                         palette.buttonText: Qt.darker(root.palette.highlight, 1.1)
                     }
 
-                    PropertyChanges {
-                        target: parent.children[index].background
-                        border.color: Qt.darker(root.palette.highlight, 1.1)
-                    }
-
                 },
                 State {
                     name: "hovered"
@@ -82,12 +77,7 @@ RowLayout {
 
                     PropertyChanges {
                         target: parent.children[index]
-                        palette.buttonText: Qt.lighter(root.palette.highlight, 1.1)
-                    }
-
-                    PropertyChanges {
-                        target: parent.children[index].background
-                        border.color: Qt.lighter(root.palette.highlight, 1.1)
+                        palette.buttonText: root.selectedText
                     }
 
                 },
@@ -97,12 +87,7 @@ RowLayout {
 
                     PropertyChanges {
                         target: parent.children[index]
-                        palette.buttonText: root.palette.highlight
-                    }
-
-                    PropertyChanges {
-                        target: parent.children[index].background
-                        border.color: root.palette.highlight
+                        palette.buttonText: root.selectedText
                     }
 
                 }
@@ -120,14 +105,9 @@ RowLayout {
             background: Rectangle {
                 height: 2
                 color: "transparent"
-                width: parent.width
-                border.width: parent.activeFocus ? 1 : 0
                 border.color: "transparent"
-                anchors.top: parent.bottom
             }
-
         }
 
     }
-
 }
