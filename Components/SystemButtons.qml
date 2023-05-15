@@ -31,7 +31,7 @@ import QtQuick.Layouts 1.11
 RowLayout {
     property var suspend: ["Suspend", config.TranslateSuspend || textConstants.suspend, sddm.canSuspend]
     property var hibernate: ["Hibernate", config.TranslateHibernate || textConstants.hibernate, sddm.canHibernate]
-    property var restart: ["Restart", config.TranslateRestart || textConstants.restart, sddm.canReboot]
+    property var restart: ["Restart", config.TranslateRestart || textConstants.reboot, sddm.canReboot]
     property var shutdown: ["Shutdown", config.TranslateShutdown || textConstants.shutdown, sddm.canPowerOff]
     property Control exposedSession
 
