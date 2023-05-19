@@ -1,6 +1,6 @@
 # SDDM Mountain Theme
 ![](Previews/1.png)
-![](Previews/4.png)
+![](Previews/2.png)
 SDDM Mountain Theme is a fork of [sddm-sugar-candy](https://github.com/kangie/sddm-sugar-candy) which i adjusted to my liking.
 
 <br/><br/>
@@ -87,9 +87,6 @@ And as if that wouldn't still be enough you can **translate every single button 
 **`ForceHideCompletePassword="false"`**  
 *If you don't like to see any character at all not even while being entered set this to true.*  
 
-**`ForceHideVirtualKeyboardButton="false"`**  
-*Do not show the button for the virtual keyboard at all. This will completely disable functionality for the virtual keyboard even if it is installed and activated in sddm.conf*  
-
 **`ForceHideSystemButtons="false"`**  
 *Completely disable and hide any power buttons on the greeter.*  
 
@@ -130,4 +127,3 @@ And as if that wouldn't still be enough you can **translate every single button 
 <br/><br/>
 
 ![](Previews/3.png)
-![](Previews/2.png)
